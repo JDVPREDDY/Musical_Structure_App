@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="recent">Recently Played</string>
+    <string name="artist">Artists</string>
+    <string name="All_songs">All Songs</string>
+    <string name="albums">Albums</string>
+    <string name="alvaro">Alvaro Soler</string>
+    <string name="maluma">Maluma</string>
+    <string name="jlz">Jennifer Lopez</string>
+    <string name="enrique">Enrique Iglesias</string>
+    <string name="pretty">PrettyBoy DirtyBoy</string>
+    <string name="uphoria">Euphoria</string>
+    <string name="rebirth">Rebirth</string>
+    <string name="magia">Magia</string>
+    <string name="agosto">Agosto</string>
+    <string name="marde">Mar de colores</string>
+</resources>

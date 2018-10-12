@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/genere_bg"
+        android:layout_margin="@dimen/pad16">
+
+        <TextView
+            style="@style/categoy_style"
+            android:text="@string/alvaro"
+            android:background="@color/alvaro"
+            android:id="@+id/alv_id"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/album_bg"
+        android:layout_margin="@dimen/pad16">
+
+        <TextView
+            style="@style/categoy_style"
+            android:text="@string/enrique"
+            android:background="@color/enrique"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/enri_id"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/pad16">
+        <TextView
+            style="@style/categoy_style"
+            android:text="@string/maluma"
+            android:background="@color/maluma"
+            android:id="@+id/malu_id"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recent_bg"
+        android:layout_margin="@dimen/pad16">
+        <TextView
+            style="@style/categoy_style"
+            android:text="@string/jlz"
+            android:background="@color/jlz"
+            android:id="@+id/jlz_id"/>
+    </FrameLayout>
+</LinearLayout>

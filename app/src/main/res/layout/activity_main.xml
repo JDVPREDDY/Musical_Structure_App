@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.music.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/pad24"
+        android:background="@color/recent_bg">
+
+        <TextView
+            android:id="@+id/recent"
+            style="@style/categoy_style"
+            android:text="@string/recent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/pad24"
+        android:background="@color/artist_bg">
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/categoy_style"
+            android:text="@string/artist" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/pad24"
+        android:background="@color/album_bg">
+
+        <TextView
+            android:id="@+id/album"
+            style="@style/categoy_style"
+            android:text="@string/albums" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/pad24"
+        android:background="@color/genere_bg">
+
+        <TextView
+            android:id="@+id/all_songs"
+            style="@style/categoy_style"
+            android:text="@string/All_songs" />
+    </FrameLayout>
+</LinearLayout>

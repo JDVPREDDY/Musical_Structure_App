@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#F8BBD0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tan_background">#F48FB1</color>
+    <color name="recent_bg">#303F9F</color>
+    <color name="artist_bg">#C6FF00</color>
+    <color name="genere_bg">#4E342E</color>
+    <color name="album_bg">#607D8B</color>
+    <color name="alvaro">#1B5E20</color>
+    <color name="enrique">#33691E</color>
+    <color name="jlz">#BF360C</color>
+    <color name="maluma">#3E2723</color>
+    <color name="agosto">#01579B</color>
+    <color name="Marde">#004D40</color>
+    <color name="magia">#1A237E</color>
+    <color name="pretty">#304FFE</color>
+    <color name="rebirth">#4A148C</color>
+    <color name="uphoria">#424242</color>
+
+</resources>

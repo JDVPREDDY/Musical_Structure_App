@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll"
+        android:padding="@dimen/pad16">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/albums"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:text="@string/pretty"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/pretty"
+                android:textColor="@android:color/white"
+                android:id="@+id/artist_name"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

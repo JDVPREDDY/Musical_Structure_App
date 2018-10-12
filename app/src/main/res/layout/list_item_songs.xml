@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_container"
+    tools:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll"
+        android:padding="@dimen/pad16">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="mismosol"
+            android:textColor="@android:color/white"
+            android:id="@+id/song_name"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Alvaro Soler"
+            android:textColor="@android:color/white"
+            android:id="@+id/artist_name"
+            android:textAppearance="?android:textAppearanceMedium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/pad16"
+                android:id="@+id/albums"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:text="agosto"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/pad16"
+                android:id="@+id/duration"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:text="0:00"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plat_arrow"
+        android:paddingRight="@dimen/pad16"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/play_icon"/>
+
+</RelativeLayout>
